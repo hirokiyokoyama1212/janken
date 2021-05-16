@@ -17,7 +17,8 @@ def janken
   puts "あなたの手:#{Jankens[my_hands]}"
   puts "相手の手:#{Jankens[partner_hands]}"
 	
-  #ジャンケンあいこの時の処理
+	
+	#ジャンケンあいこの時の処理
   if my_hands == partner_hands
     puts "あいこ!"
     return true
